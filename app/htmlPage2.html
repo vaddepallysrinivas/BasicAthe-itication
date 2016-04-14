@@ -1,0 +1,53 @@
+﻿<style>
+    table {
+        border: 1px solid #666;
+        width: 100%;
+    }
+
+    th {
+        background: #f8f8f8;
+        font-weight: bold;
+        padding: 2px;
+    }
+</style>
+<div class="row">
+    <div class="col-sm-12">
+
+        <h1>Welcoe to page2</h1>
+        <button type="button" ng-click="vm.displayJsonData()" class="btn btn-primary">Display JsOn Data</button>
+    </div>
+
+    <div class="row">
+
+        <table>
+            <tr>
+                <th>AdminCode1</th>
+                <th>AdminCode2</th>
+                <th>AdminCode3</th>
+                <th>AdminName1</th>
+                <th>AdminName2</th>
+                <th>adminName3</th>
+                <th>CountryCode</th>
+                <th>Lat</th>
+                <th>Lng</th>
+                <th>PlaceName</th>
+                <th>PostalCode</th>
+
+            </tr>
+            <tr ng-repeat="obj in vm.model.cityData.postalcodes">
+                <td>{{obj.adminCode1}}</td>
+                <td>{{obj.adminCode2}}</td>
+                <td>{{obj.adminCode3}}</td>
+                <td>{{obj.adminName1}}</td>
+                <td>{{obj.adminName2}}</td>
+                <td>{{obj.adminName3}}</td>
+                <td>{{obj.countryCode}}</td>
+                <td>{{obj.lat}}</td>
+                <td>{{obj.lng}}</td>
+                <td>{{obj.placeName}}</td>
+                <td>{{obj.postalcode}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>

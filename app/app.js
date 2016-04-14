@@ -1,0 +1,1 @@
+﻿angular.module("Authentication", ['ui.router', 'ngCookies']);

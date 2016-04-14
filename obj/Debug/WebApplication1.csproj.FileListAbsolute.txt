@@ -1,0 +1,10 @@
+D:\myprojects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\myprojects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\myprojects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\myprojects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\myprojects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\project\WebApplication2\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\project\WebApplication2\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\project\WebApplication2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\project\WebApplication2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\project\WebApplication2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

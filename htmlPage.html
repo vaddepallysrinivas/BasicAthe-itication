@@ -1,0 +1,57 @@
+﻿
+<html ng-app="Authentication">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+   <div class="container" ng-controller="index as vm">
+
+        <h1>Hello World!</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:azure;">
+                <a ui-sref="page1" class="btn btn-success" ng-if="$rootScope.globals.currentUser" href="/">login</a>
+               <!-- <a  class="btn btn-success" ng-if="!$rootScope.globals.currentUser" ng-href="vm.logOut()">logout</a>-->
+                <button class="btn btn-success" ng-if="!$rootScope.globals.currentUser" ng-click="vm.logOut()">logout</button>
+                <a ui-sref="page2" class="btn btn-success" href="/">Poc2</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="background-color: lavender;">
+                                     
+                    <div ui-view=""></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="jqury/jquery.js"></script>
+    <script src="jqury/bootstrap.js"></script>
+    <script src="angular/angular.js"></script>
+    <script src="angular/angular-ui-router.js"></script>
+    <script src="angular/angular-cookies.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/appRoute.js"></script>
+    <script src="index.js"></script>
+    <script src="app/login.js"></script>
+    <script src="app/Base64.js"></script>
+    <script src="app/AuthenticationService.js"></script>
+    <script src="app/login.js"></script>
+
+
+
+
+
+
+
+
+
+    <script src="app/htmlPage2.js"></script>
+
+</body>
+</html>
